@@ -5,4 +5,4 @@ FROM SpotifyClone.cantion AS c
 INNER JOIN SpotifyClone.album AS al 
 ON c.album_id = al.album_id
 INNER JOIN SpotifyClone.artist AS a
-ON al.artist_id = a.artist_id;
+ON c.artist_id = a.artist_id;
